@@ -1,0 +1,15 @@
+﻿============================================================
+TESTING NEWSAPI
+============================================================
+Status: ok
+Total Results: 2
+
+1. [Privatebankerinternational.com] The Shape of Finance in 2026: How AI, ESG, and Global Risk Are Re...
+2. [GlobeNewswire] Global Sleep Tech Market Size to Reach USD 102.76 Billion by 2033...
+
+============================================================
+TESTING ALPHA VANTAGE
+============================================================
+Symbol: AAPL
+Price: $271.0100
+Change: -0.3127%

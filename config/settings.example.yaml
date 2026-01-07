@@ -1,0 +1,48 @@
+# Greenwashing Gap Analysis Configuration
+# ========================================
+# Copy this file to settings.yaml and fill in your API keys
+
+api_keys:
+  # NewsAPI.org key for news collection (free tier available)
+  newsapi: "your_newsapi_key_here"
+  
+  # Optional: Alpha Vantage for additional financial data
+  alpha_vantage: ""
+  
+  # Optional: Hugging Face token for private models
+  huggingface: ""
+
+settings:
+  # Enable caching of API responses
+  cache_enabled: true
+  
+  # Cache expiry in hours
+  cache_expiry_hours: 24
+  
+  # Default analysis period in days
+  default_analysis_period: 365
+  
+  # Number of SEC filings to analyze per company
+  sec_filing_count: 3
+  
+  # News articles per source
+  news_article_limit: 50
+
+model_settings:
+  # FinBERT model for sentiment analysis
+  sentiment_model: "ProsusAI/finbert"
+  
+  # Maximum text length for transformer models
+  max_sequence_length: 512
+  
+  # Random Forest parameters
+  rf_n_estimators: 100
+  rf_max_depth: 10
+
+visualization:
+  # Default figure size
+  figure_width: 12
+  figure_height: 8
+  
+  # Color scheme
+  theme: "dark"

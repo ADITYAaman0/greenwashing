@@ -1,0 +1,31 @@
+# Greenwashing Gap Analysis Configuration
+# ========================================
+
+api_keys:
+  # NewsAPI.org key for news collection
+  newsapi: "d9281958cc04400eb740f0410c009393"
+  
+  # Alpha Vantage for financial data (stock prices, fundamentals)
+  # Get free key at: https://www.alphavantage.co/support/#api-key
+  alpha_vantage: "MDR7YP96X9CHAHNN"
+  
+  # Optional: Hugging Face token for private models
+  huggingface: ""
+
+settings:
+  cache_enabled: true
+  cache_expiry_hours: 24
+  default_analysis_period: 365
+  sec_filing_count: 3
+  news_article_limit: 50
+
+model_settings:
+  sentiment_model: "ProsusAI/finbert"
+  max_sequence_length: 512
+  rf_n_estimators: 100
+  rf_max_depth: 10
+
+visualization:
+  figure_width: 12
+  figure_height: 8
+  theme: "dark"
